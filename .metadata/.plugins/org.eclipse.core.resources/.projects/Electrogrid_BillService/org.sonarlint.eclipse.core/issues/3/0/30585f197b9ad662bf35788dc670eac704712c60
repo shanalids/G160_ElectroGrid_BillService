@@ -1,0 +1,37 @@
+
+]
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿHRMAJORZ
+CODE_SMELL
+L
+java:S1643w"Use a StringBuilder instead.(æ“µüÿÿÿÿH}RMINORZ
+CODE_SMELL
+z
+java:S20956"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ş¿îğúÿÿÿÿHRBLOCKERZBUG
+L
+java:S1643q"Use a StringBuilder instead.(Ù¿ÄœÿÿÿÿÿHRMINORZ
+CODE_SMELL
+G
+java:S1643p"Use a StringBuilder instead.(ŒŒíHRMINORZ
+CODE_SMELL
+G
+java:S1643r"Use a StringBuilder instead.(¥¾¢äHRMINORZ
+CODE_SMELL
+G
+java:S1643t"Use a StringBuilder instead.(ƒéÍàHRMINORZ
+CODE_SMELL
+r
+java:S2095b"GUse try-with-resources or close this "Statement" in a "finally" clause.(íñéşÿÿÿÿHRBLOCKERZBUG
+t
+java:S1192p"FDefine a constant instead of duplicating this literal "</td>" 5 times.(ŒŒíHRCRITICALZ
+CODE_SMELL
+h	java:S106K"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿHRMAJORZ
+CODE_SMELL
+Y
+java:S2115")Add password protection to this database.(ÉÄìûHRBLOCKERZVULNERABILITY
+G
+java:S1643s"Use a StringBuilder instead.(í‰±ºHRMINORZ
+CODE_SMELL
+i	java:S106„"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿHRMAJORZ
+CODE_SMELL
+t	java:S125Š"<This block of commented-out lines of code should be removed.(›‹½Õÿÿÿÿÿ8¨†ïŠ0HŠRMAJORZ
+CODE_SMELL

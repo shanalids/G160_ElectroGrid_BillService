@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+D:\ElectroGridBillService\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4127943392.index
+901814982.index
+2426808597.index
+3471468329.index
+941474611.index

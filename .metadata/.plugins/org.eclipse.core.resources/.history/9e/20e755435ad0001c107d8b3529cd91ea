@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+ 
+ $(document).ready(function() {
+	if ($("#alertSuccess").text().trim() == "") {
+		$("#alertSuccess").hide();
+	}
+	$("#alertError").hide();
+});
+
+$(document).on("click", "#btnSave", function(event) {
+	// Clear alerts---------------------
+	$("#alertSuccess").text("");
+	$("#alertSuccess").hide();
+	$("#alertError").text("");
+	$("#alertError").hide();
+	// Form validation-------------------
+	var status = validateBillForm();
+	if (status != true) {
+		$("#alertError").text(status);
+		$("#alertError").show();
+		return;
+	}
+	// If valid------------------------
+	var type = ($("#hidBillIDSave").val() == "") ? "POST" : "PUT";
+	$.ajax(
+		{
+			url: "BillAPI",
+			type: type,
+			data: $("#formBill").serialize(),
+			dataType: "text",
+			complete: function(response, status) {
+				onItemSaveComplete(response.responseText, status);
+			}
+		});
+});

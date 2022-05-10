@@ -1,0 +1,35 @@
+
+a
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHSRINFOZ
+CODE_SMELL
+a
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHWRINFOZ
+CODE_SMELL
+j
+java:S1161-":Add the "@Override" annotation above this method signature(Ý¤É¯ûÿÿÿÿH\RMAJORZ
+CODE_SMELL
+a
+java:S11355"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHaRINFOZ
+CODE_SMELL
+j
+java:S11614":Add the "@Override" annotation above this method signature(Ñ­ÑçùÿÿÿÿH_RMAJORZ
+CODE_SMELL
+~
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ÏÚ‚´HVRMINORZVULNERABILITY
+’
+java:S1989'"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿHZRMINORZVULNERABILITY
+j
+java:S1161":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHTRMAJORZ
+CODE_SMELL
+a
+java:S1135."2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH^RINFOZ
+CODE_SMELL
+a
+java:S1135&"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH[RINFOZ
+CODE_SMELL
+e
+java:S1161%":Add the "@Override" annotation above this method signature(‹¨¯¿HXRMAJORZ
+CODE_SMELL
+‹
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ïó†Òþÿÿÿÿ8‚™ÍîŠ0HqRMINORZ
+CODE_SMELL
