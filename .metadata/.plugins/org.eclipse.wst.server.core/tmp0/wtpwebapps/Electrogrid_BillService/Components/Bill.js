@@ -58,6 +58,50 @@ function onBillSaveComplete(response, status) {
 	$("#formBill")[0].reset();
 }
 
+
+// UPDATE==========================================
+$(document).on("click", ".btnUpdate", function(event) {
+	$("#hidBillIDSave").val($(this).data("billid"));
+	$("#billCode").val($(this).closest("tr").find('td:eq(0)').text());
+	$("#electricityAccountNo").val($(this).closest("tr").find('td:eq(1)').text());
+	$("#billMonth").val($(this).closest("tr").find('td:eq(2)').text());
+	$("#units").val($(this).closest("tr").find('td:eq(3)').text());
+});
+
+$(document).on("click", ".btnRemove", function(event) {
+	$.ajax(
+		{
+			url: "BillAPI",
+			type: "DELETE",
+			data: "billID=" + $(this).data("billid"),
+			dataType: "text",
+			complete: function(response, status) {
+				onBillDeleteComplete(response.responseText, status);
+			}
+		});
+});
+
+
+function onBillDeleteComplete(response, status) {
+	if (status == "success") {
+		var resultSet = JSON.parse(response);
+		if (resultSet.status.trim() == "success") {
+			$("#alertSuccess").text("Successfully deleted.");
+			$("#alertSuccess").show();
+			$("#divBillsGrid").html(resultSet.data);
+		} else if (resultSet.status.trim() == "error") {
+			$("#alertError").text(resultSet.data);
+			$("#alertError").show();
+		}
+	} else if (status == "error") {
+		$("#alertError").text("Error while deleting.");
+		$("#alertError").show();
+	} else {
+		$("#alertError").text("Unknown error while deleting..");
+		$("#alertError").show();
+	}
+}
+
 // CLIENT-MODEL================================================================
 function validateBillorm() {
 	// CODE

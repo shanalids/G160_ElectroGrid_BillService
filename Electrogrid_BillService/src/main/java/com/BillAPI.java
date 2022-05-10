@@ -58,12 +58,12 @@ public class BillAPI extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
           String output = bill.insertBill(request.getParameter("billCode"), 
 				
 				request.getParameter("electricityAccountNo"),
 				request.getParameter("billMonth"), 
 				request.getParameter("units"));
-                request.getParameter("paymentAmount");
 		        response.getWriter().write(output);
 	}
 
@@ -71,14 +71,23 @@ public class BillAPI extends HttpServlet {
 	 * @see HttpServlet#doPut(HttpServletRequest, HttpServletResponse)
 	 */
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		      
+		    Map paras = getParasMap(request);
+		
+		   String output = bill.updateBill(paras.get("hidBillIDSave").toString(),
+				           paras.get("billCode").toString(), 
+				           paras.get("electricityAccountNo").toString(), 
+				           paras.get("billMonth").toString(), 
+				           paras.get("units").toString());
+		   response.getWriter().write(output);
 	}
 
 	/**
 	 * @see HttpServlet#doDelete(HttpServletRequest, HttpServletResponse)
 	 */
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		 Map paras = getParasMap(request);
+		 String output = bill.deleteBill(paras.get("billID").toString());
+		response.getWriter().write(output);
 	}
 
 }

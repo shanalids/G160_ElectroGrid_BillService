@@ -134,7 +134,7 @@ public class Bill {
 				 return output;
 				 }
 		
-		/*Update bill method
+		//Update bill method
 		public String updateBill(String billID, String billCode, String electricityAccountNo, String billMonth, String units) {
 			
 			String output = "";
@@ -172,16 +172,16 @@ public class Bill {
 			 
 				 preparedStmt.execute();
 			     con.close();
-			     output = "Updated successfully";
-			 }
-			 
-			 catch (Exception e)
-			 {
-				 output = "Error while updating the bill.";
-				 System.err.println(e.getMessage());
-			 }
-			 return output;
-		}*/
+			     
+			     String newBills = readBills();
+					output = "{\"status\":\"success\", \"data\": \"" + newBills + "\"}";
+				} catch (Exception e) {
+					output = "{\"status\":\"error\", \"data\": \"Error while updating the bill.\"}";
+					System.err.println(e.getMessage());
+				}
+				return output;
+			}
+
 		
        public String deleteBill(String billID) {
 			
