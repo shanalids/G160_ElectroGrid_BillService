@@ -474,3 +474,7 @@ java.net.URISyntaxException: Illegal character in path at index 22: file:/C:/Use
 2022-05-11 09:57:05,349 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ElectroGridBillService\Electrogrid_BillService\src\main\resources
 2022-05-11 09:57:05,349 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-11 09:57:05,351 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ElectroGridBillService\Electrogrid_BillService\src\test\resources
+2022-05-11 12:48:19,786 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-11 12:48:19,806 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ElectroGridBillService\Electrogrid_BillService\src\main\resources
+2022-05-11 12:48:19,806 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-11 12:48:19,881 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ElectroGridBillService\Electrogrid_BillService\src\test\resources

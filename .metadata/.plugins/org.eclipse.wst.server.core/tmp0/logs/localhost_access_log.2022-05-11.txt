@@ -23,3 +23,6 @@
 0:0:0:0:0:0:0:1 - - [11/May/2022:09:57:31 +0530] "POST /Electrogrid_BillService/BillAPI HTTP/1.1" 200 2648
 0:0:0:0:0:0:0:1 - - [11/May/2022:09:57:48 +0530] "PUT /Electrogrid_BillService/BillAPI HTTP/1.1" 200 2656
 0:0:0:0:0:0:0:1 - - [11/May/2022:09:57:52 +0530] "DELETE /Electrogrid_BillService/BillAPI HTTP/1.1" 200 2350
+0:0:0:0:0:0:0:1 - - [11/May/2022:11:09:17 +0530] "POST /Electrogrid_BillService/BillAPI HTTP/1.1" 200 2650
+0:0:0:0:0:0:0:1 - - [11/May/2022:11:09:20 +0530] "DELETE /Electrogrid_BillService/BillAPI HTTP/1.1" 200 2350
+0:0:0:0:0:0:0:1 - - [11/May/2022:11:49:09 +0530] "POST /Electrogrid_BillService/BillAPI HTTP/1.1" 200 2656

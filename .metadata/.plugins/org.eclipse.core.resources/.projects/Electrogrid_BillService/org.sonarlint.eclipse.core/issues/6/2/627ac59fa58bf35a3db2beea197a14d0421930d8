@@ -1,46 +1,46 @@
 
-b
-java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHÒRINFOZ
+†
+java:S19897"PHandle the following exception that could be thrown by "getWriter": IOException.(ÏÚ‚´8³ıõòŠ0H®RMINORZVULNERABILITY
+Œ
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ïó†Òşÿÿÿÿ8¸šÃöŠ0HµRMINORZ
 CODE_SMELL
-k
-java:S11614":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHŞRMAJORZ
+g
+java:S3740""/Provide the parametrized type for this generic.(·£¨İûÿÿÿÿ8óóãïŠ0H»RMAJORZ
 CODE_SMELL
+†
+java:S1989["PHandle the following exception that could be thrown by "getWriter": IOException.(µïõº8•ÕÁöŠ0H¯RMINORZVULNERABILITY
+Œ
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8óóãïŠ0H¬RMINORZ
+CODE_SMELL
+†
+java:S1989R"PHandle the following exception that could be thrown by "getWriter": IOException.(µïõº8óóãïŠ0H¸RMINORZVULNERABILITY
+„
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(åæì¼8óóãïŠ0H§RMAJORZBUG
 f
-java:S1161<":Add the "@Override" annotation above this method signature(‹¨¯¿HÙRMAJORZ
-CODE_SMELL
-†
-java:S1989Z"PHandle the following exception that could be thrown by "getWriter": IOException.(µïõº8³ıõòŠ0HÍRMINORZVULNERABILITY
-b
-java:S3740J"/Provide the parametrized type for this generic.(­ ä8³ıõòŠ0HÌRMAJORZ
-CODE_SMELL
-†
-java:S1989C"PHandle the following exception that could be thrown by "getWriter": IOException.(µïõº8óóãïŠ0HğRMINORZVULNERABILITY
-[	java:S108,")Either remove or fill this block of code.(”ı¾8óóãïŠ0HïRMAJORZ
-CODE_SMELL
-b
-java:S11355"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÑRINFOZ
+java:S1161=":Add the "@Override" annotation above this method signature(‹¨¯¿HªRMAJORZ
 CODE_SMELL
 
-java:S19896"PHandle the following exception that could be thrown by "getWriter": IOException.(ÏÚ‚´HÜRMINORZVULNERABILITY
-k
-java:S1161I":Add the "@Override" annotation above this method signature(İ¤É¯ûÿÿÿÿHÖRMAJORZ
+java:S1989D"PHandle the following exception that could be thrown by "getWriter": IOException.(µïõºH©RMINORZVULNERABILITY
+[	java:S108-")Either remove or fill this block of code.(”ı¾8óóãïŠ0H·RMAJORZ
 CODE_SMELL
-„
-java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(åæì¼8óóãïŠ0HñRMAJORZBUG
-g
-java:S3740!"/Provide the parametrized type for this generic.(·£¨İûÿÿÿÿ8óóãïŠ0HìRMAJORZ
+k
+java:S1161J":Add the "@Override" annotation above this method signature(İ¤É¯ûÿÿÿÿH¹RMAJORZ
+CODE_SMELL
+k
+java:S1161X":Add the "@Override" annotation above this method signature(Ñ­ÑçùÿÿÿÿH³RMAJORZ
 CODE_SMELL
 b
-java:S3740X"/Provide the parametrized type for this generic.(­ ä8•ÕÁöŠ0H†RMAJORZ
+java:S3740K"/Provide the parametrized type for this generic.(­ ä8•ÕÁöŠ0H¼RMAJORZ
 CODE_SMELL
-Œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ïó†Òşÿÿÿÿ8¸šÃöŠ0HRMINORZ
-CODE_SMELL
-Œ
-java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8óóãïŠ0HíRMINORZ
-CODE_SMELL
-†
-java:S1989Q"PHandle the following exception that could be thrown by "getWriter": IOException.(µïõº8•ÕÁöŠ0H‡RMINORZVULNERABILITY
 k
-java:S1161W":Add the "@Override" annotation above this method signature(Ñ­ÑçùÿÿÿÿHÓRMAJORZ
+java:S11615":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH°RMAJORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH²RINFOZ
+CODE_SMELL
+b
+java:S3740Y"/Provide the parametrized type for this generic.(­ ä8³ıõòŠ0H¨RMAJORZ
+CODE_SMELL
+b
+java:S11356"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH½RINFOZ
 CODE_SMELL
