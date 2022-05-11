@@ -59,7 +59,7 @@ public class BillAPI extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-          String output = bill.insertBill(request.getParameter("billCode"), 
+                String output = bill.insertBill(request.getParameter("billCode"), 
 				
 				request.getParameter("electricityAccountNo"),
 				request.getParameter("billMonth"), 

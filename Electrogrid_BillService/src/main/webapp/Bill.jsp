@@ -14,7 +14,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
-				<h1>Bills</h1>
+				<h1>Bill Management</h1>
 				<form id="formBill" name="formBill">
 					Bill code: 
 						<input id="billCode" name="billCode" type="text"

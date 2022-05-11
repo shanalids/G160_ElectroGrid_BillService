@@ -15,6 +15,7 @@ $(document).on("click", "#btnSave", function(event) {
 	$("#alertSuccess").hide();
 	$("#alertError").text("");
 	$("#alertError").hide();
+	
 	// Form validation-------------------
 	var status = validateBillForm();
 	if (status != true) {
@@ -56,6 +57,39 @@ function onBillSaveComplete(response, status) {
 	}
 	$("#hidBillIDSave").val("");
 	$("#formBill")[0].reset();
+}
+
+// CLIENT-MODEL================================================================
+function validateBillForm(){
+	
+	//CODE
+	if ($("#billCode").val().trim() == ""){
+		return "Insert Bill Code.";
+	}
+	
+	//ELECTRICITY ACCOUNT NUMBER
+	if ($("#electricityAccountNo").val().trim() == ""){
+		return "Insert Electricty Account Number.";
+	}
+	
+	//BILL MONTH
+	if ($("#billMonth").val().trim() == ""){
+		return "Insert Bill Month.";
+	}
+	
+	//UNITS
+	if ($("#units").val().trim() == ""){
+		return "Insert Units.";
+	}
+	
+	// is numerical value
+	var tmpUnits = $("#units").val().trim();
+	if (!$.isNumeric(tmpUnits)) {
+		return "Insert a numerical value for Units.";
+	}
+	
+	return true;
+	
 }
 
 
@@ -102,43 +136,3 @@ function onBillDeleteComplete(response, status) {
 	}
 }
 
-// CLIENT-MODEL================================================================
-function validateBillorm() {
-	// CODE
-	if ($("#billCode").val().trim() == "") {
-		return "Insert Bill Code.";
-	}
-	
-	// ELECTRICTY ACCOUNT NUMBER
-	if ($("#electricityAccountNo").val().trim() == "") {
-		return "Insert Electricty Account Number.";
-	}
-	
-	// BILL MONTH
-	if ($("#billMonth").val().trim() == "") {
-		return "Insert Bill Month.";
-	}
-	
-	// UNITS
-	if ($("#units").val().trim() == "") {
-		return "Insert Units.";
-	}
-	
-	// PAYMENT AMOUNT
-	if ($("#paymentAmount").val().trim() == "") {
-		return "Insert Payment Amount.";
-	}
-	
-	// is numerical value
-	var tmpUnits = $("#units").val().trim();
-	if (!$.isNumeric(tmpUnits)) {
-		return "Insert a numerical value for Units.";
-	}
-	
-	var tmpPaymentAmount = $("#paymentAmount").val().trim();
-	if (!$.isNumeric(ttmpPaymentAmount)) {
-		return "Insert a numerical value for PaymentAmount.";
-	}
-
-	return true;
-}
